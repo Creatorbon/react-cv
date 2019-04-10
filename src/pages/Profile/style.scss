@@ -1,0 +1,92 @@
+.photo {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  height: 225px;
+  border: 1px solid #1172b7;
+  border-radius: 50%;
+
+  .avatar {
+    width: 197px;
+    height: 197px;
+    background-color: #1172b7;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 130%;
+    }
+  }
+}
+
+.info {
+  .name {
+    height: 37px;
+    color: #000000;
+    font-size: 51px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .surname {
+    height: 41px;
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 12px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .job-title {
+    height: 17px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.block-title {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 72px;
+  }
+
+  span {
+    color: #1172b7;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 12px;
+  }
+
+  .lines {
+    width: 100%;
+    height: 6px;
+    background-color: #1172b7;
+  }
+}
+
+.profile {
+  margin-top: 50px;
+
+  &__block {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: justify;
+  }
+}
+
