@@ -1,9 +1,12 @@
 import React from 'react';
 
+import "../Expirience/style.scss";
+import logo from "../../img/EDUCATION_ICON.png";
+
 const Education = () => (
-    <div className="education">
-        <div className="block_title">
-            <img src="img/EDUCATION_ICON.png" alt="" />
+    <div className="education justify-content-center container">
+        <div className="block-title">
+            <img src={logo} alt="" />
             <span>Education</span>
             <span className="lines"></span>
         </div>

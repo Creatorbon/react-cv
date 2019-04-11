@@ -1,83 +1,86 @@
 import React from 'react';
 
+import './style.scss';
+import logo from "../../img/SKILLS_ICON.png";
+
 const Skills = () => (
-    <div className="skills">
-        <div className="block_title">
-            <img src="img/SKILLS_ICON.png" alt="" />
-                <span>Skills</span>
-                <span className="lines"></span>
-    </div>
-            <div className="skills_block">
-                <div className="creative">
-                    <div>Creative</div>
-                    <div className="circles">
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="grey_circle"></span>
-                        <span className="grey_circle"></span>
-                        <span className="grey_circle"></span>
-                    </div>
+    <div className="skills justify-content-center container">
+        <div className="block-title">
+            <img src={logo} alt="" />
+            <span>Skills</span>
+            <span className="lines"></span>
+        </div>
+        <div className="skills__block">
+            <div className="html-css">
+                <div>HTML/CSS</div>
+                <div className="circles">
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
                 </div>
-                <div className="teamwork">
-                    <div>Teamwork</div>
-                    <div className="circles">
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="grey_circle"></span>
-                    </div>
+            </div>
+            <div className="bootstrap">
+                <div>Bootstrap</div>
+                <div className="circles">
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
                 </div>
-                <div className="innovate">
-                    <div>Innovate</div>
-                    <div className="circles">
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="grey_circle"></span>
-                        <span className="grey_circle"></span>
-                        <span className="grey_circle"></span>
-                    </div>
+            </div>
+            <div className="javaScript">
+                <div>JavaScript ES5/ES6</div>
+                <div className="circles">
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
                 </div>
-                <div className="communication">
-                    <div>Communication</div>
-                    <div className="circles">
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="blue_circle"></span>
-                        <span className="grey_circle"></span>
-                        <span className="grey_circle"></span>
-                    </div>
+            </div>
+            <div className="react">
+                <div>React JS</div>
+                <div className="circles">
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__blue"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
+                    <span className="circles__gray"></span>
                 </div>
             </div>
         </div>
-        )
-        
+    </div>
+)
+
 export default Skills;

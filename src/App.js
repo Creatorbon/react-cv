@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 
-import './App.css';
+import './App.scss';
 import Profile from './pages/Profile';
 import Skills from './pages/Skills';
 import Education from './pages/Education';
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="header">
-          <nav className="navbar navbar-expand-lg navbar-dark">
+          <nav className="navbar navbar-expand-lg navbar-dark position-fixed">
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -46,7 +46,7 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
         </Switch>
 
-        <nav className="navbar navbar-expand-lg navbar-dark footer">
+        <nav className="navbar navbar-expand-lg navbar-dark footer fixed-bottom">
 				<div className="container-fluid">
 					<ul className="navbar-nav mr-auto container">
 						<li className="nav-item"><a href="https://github.com/Creatorbon" target="blank" className="nav-link">Maked by Nikita Remeslov</a></li>

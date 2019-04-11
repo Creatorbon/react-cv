@@ -1,14 +1,16 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 
+import "./style.scss";
+import logo from "../../img/EXPERIENCE_ICON.png";
+
 const Expirience = () => (
-    <div className="experience">
-        <div className="block_title">
-            <img src="img/EXPERIENCE_ICON.png" alt="" />
+    <div className="experience justify-content-center container">
+        <div className="block-title">
+            <img src={logo} alt="" />
             <span>Experience</span>
             <span className="lines"></span>
         </div>
-        <div className="content">
+        <div>
             <div className="type">
                 <span></span>
                 <div>Company name</div>
@@ -23,7 +25,7 @@ const Expirience = () => (
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
                         </div>
         </div>
-        <div className="content">
+        <div>
             <div className="type">
                 <span></span>
                 <div>Company name</div>
@@ -38,7 +40,7 @@ const Expirience = () => (
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
                         </div>
         </div>
-        <div className="content">
+        <div>
             <div className="type">
                 <span></span>
                 <div>Company name</div>
