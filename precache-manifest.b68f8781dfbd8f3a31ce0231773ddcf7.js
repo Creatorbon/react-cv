@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/react-cv/static/js/runtime~main.d42d17c0.js"
   },
   {
-    "revision": "d411a8fe63d871de4738",
-    "url": "/react-cv/static/js/main.29380f48.chunk.js"
+    "revision": "f9d3bf5532ce2cf0f5cd",
+    "url": "/react-cv/static/js/main.316cb7c7.chunk.js"
   },
   {
     "revision": "2d088a35a5b5d832f948",
     "url": "/react-cv/static/js/2.b5ac366a.chunk.js"
   },
   {
-    "revision": "d411a8fe63d871de4738",
+    "revision": "f9d3bf5532ce2cf0f5cd",
     "url": "/react-cv/static/css/main.4b3a3c62.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react-cv/static/css/2.d9553b0d.chunk.css"
   },
   {
-    "revision": "4405b0f2c90a6a9a680905d8f40b3203",
+    "revision": "c28592556f2bb844c86f49838e1a3170",
     "url": "/react-cv/index.html"
   }
 ];
