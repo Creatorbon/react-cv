@@ -49,7 +49,7 @@ class App extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark footer fixed-bottom">
 				<div className="container-fluid">
 					<ul className="navbar-nav mr-auto container">
-						<li className="nav-item"><a href="https://github.com/Creatorbon" target="blank" className="nav-link">Maked by Nikita Remeslov</a></li>
+						<li className="nav-item"><a href="https://github.com/Creatorbon" target="blank" className="nav-link">Created by Nikita Remeslov</a></li>
 					</ul>
 				</div>
 			</nav>	
